@@ -1,1 +1,0 @@
-var e=`/assets/world-map-BbNPSsxC.jpg`;export{e as t};
