@@ -173,7 +173,7 @@ export function InquiryForm({
         <Button
           type="submit"
           disabled={submitting}
-          className="h-12 w-full rounded-none bg-brand-green text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-ivory hover:bg-brand-green-deep md:w-auto md:px-10"
+          className="h-12 w-full rounded-none bg-brand-gold text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-green-deep hover:bg-brand-gold-soft md:w-auto md:px-10"
         >
           {submitting ? "Sending…" : isContactForm ? "Send message" : "Submit enquiry"}
         </Button>

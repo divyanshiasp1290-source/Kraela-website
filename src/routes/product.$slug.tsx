@@ -128,7 +128,7 @@ function ProductDetail() {
               <Link
                 to="/quote"
                 search={{ product: product.slug }}
-                className="mt-7 inline-flex w-full items-center justify-center bg-brand-green px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-ivory"
+                className="mt-7 inline-flex w-full items-center justify-center bg-brand-gold px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-green-deep transition-colors hover:bg-brand-gold-soft"
               >
                 Get pricing
               </Link>

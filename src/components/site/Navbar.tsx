@@ -41,7 +41,7 @@ export function Navbar() {
         <div className="flex shrink-0 items-center justify-end gap-2">
           <Link
             to="/quote"
-            className="hidden bg-brand-green px-5 py-3 text-[13px] font-semibold uppercase tracking-[0.18em] text-brand-ivory transition-colors hover:bg-brand-green-deep sm:inline-block"
+            className="hidden bg-brand-gold px-5 py-3 text-[13px] font-semibold uppercase tracking-[0.18em] text-brand-green-deep transition-colors hover:bg-brand-gold-soft sm:inline-block"
           >
             Request a Quote
           </Link>
@@ -76,7 +76,7 @@ export function Navbar() {
             <Link
               to="/quote"
               onClick={() => setOpen(false)}
-              className="mt-4 bg-brand-green px-5 py-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-ivory"
+              className="mt-4 bg-brand-gold px-5 py-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-green-deep transition-colors hover:bg-brand-gold-soft"
             >
               Request a Quote
             </Link>

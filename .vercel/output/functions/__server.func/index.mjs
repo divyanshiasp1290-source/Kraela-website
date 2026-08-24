@@ -1030,7 +1030,7 @@ let serverEntryPromise;
 async function getServerEntry() {
   if (!serverEntryPromise) {
     serverEntryPromise = Promise.resolve().then(function() {
-      return serverCnOKzJ_O;
+      return serverBwHJ0Chi;
     }).then((n) => n.s).then(
       (m) => m.default ?? m
     );
@@ -21590,7 +21590,7 @@ function getResponse() {
 var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 async function getStartManifest(matchedRoutes) {
   const { tsrStartManifest: tsrStartManifest2 } = await Promise.resolve().then(function() {
-    return _tanstackStartManifest_vDoN16At;
+    return _tanstackStartManifest_vXKCKWpSQ;
   });
   const startManifest = tsrStartManifest2();
   let routes = startManifest.routes;
@@ -22669,10 +22669,10 @@ var createEarlyHintsForRequest = createEarlyHintsCollector;
 async function loadEntries() {
   const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
     Promise.resolve().then(function() {
-      return routerCnQ2V7d6;
+      return routerD8Eu7kc6;
     }).then((n) => n.e),
     Promise.resolve().then(function() {
-      return startDqJpWjLm;
+      return startGLQXb68K;
     }),
     Promise.resolve().then(function() {
       return emptyPluginAdaptersBFgPZ6_d;
@@ -23020,14 +23020,14 @@ const server = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   createServerEntry,
   default: server_default
 }, Symbol.toStringTag, { value: "Module" }));
-const serverCnOKzJ_O = /* @__PURE__ */ Object.freeze({
+const serverBwHJ0Chi = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   a: createCsrfMiddleware,
   c: createMiddleware,
   s: server
 });
-const tsrStartManifest = () => ({ routes: { __root__: { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/__root.tsx", children: ["/", "/about", "/contact", "/global-presence", "/industries", "/products", "/quality", "/quote", "/resources", "/sitemap.xml", "/product/$slug"], preloads: ["/assets/index-DAQCEzhG.js"], scripts: [{ attrs: { type: "module", async: true, src: "/assets/index-DAQCEzhG.js" } }] }, "/": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/index.tsx", children: void 0, preloads: ["/assets/index-BBs-ujtJ.js", "/assets/facility-DIV0AnVV.js", "/assets/world-map-DMZ6nnnU.js", "/assets/ProductCard-CavqwA3_.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/accordion-BWGCl6xz.js", "/assets/arrow-right-ehHOHOKZ.js", "/assets/shield-check-DNVvPfIY.js", "/assets/index-CcDVhXoZ.js"] }, "/about": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/about.tsx", children: void 0, preloads: ["/assets/about-CnARUgiu.js", "/assets/facility-DIV0AnVV.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/arrow-right-ehHOHOKZ.js"] }, "/contact": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/contact.tsx", children: void 0, preloads: ["/assets/contact-CqzSrc73.js", "/assets/InquiryForm-DVP9xpQf.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/Section-CjRieCMC.js", "/assets/index-CcDVhXoZ.js", "/assets/input-CbmKSwTD.js"] }, "/global-presence": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/global-presence.tsx", children: void 0, preloads: ["/assets/global-presence-BDB-w5ZC.js", "/assets/world-map-DMZ6nnnU.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/arrow-right-ehHOHOKZ.js"] }, "/industries": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/industries.tsx", children: void 0, preloads: ["/assets/industries-Ba4fLP1p.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/arrow-right-ehHOHOKZ.js"] }, "/products": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/products.tsx", children: ["/products/"], preloads: ["/assets/products-DSJFl7DB.js"] }, "/quality": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/quality.tsx", children: void 0, preloads: ["/assets/quality-gAn8LN6w.js", "/assets/facility-DIV0AnVV.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/shield-check-DNVvPfIY.js", "/assets/arrow-right-ehHOHOKZ.js"] }, "/quote": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/quote.tsx", children: void 0, preloads: ["/assets/quote-DiescRNo.js", "/assets/InquiryForm-DVP9xpQf.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/Section-CjRieCMC.js", "/assets/index-CcDVhXoZ.js", "/assets/input-CbmKSwTD.js"] }, "/resources": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/resources.tsx", children: void 0, preloads: ["/assets/resources-5203ZxEh.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/accordion-BWGCl6xz.js", "/assets/arrow-right-ehHOHOKZ.js", "/assets/index-CcDVhXoZ.js"] }, "/product/$slug": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/product.$slug.tsx", children: void 0, preloads: ["/assets/product._slug-CYU6tjst.js", "/assets/ProductCard-CavqwA3_.js", "/assets/Section-CjRieCMC.js", "/assets/arrow-right-ehHOHOKZ.js"] }, "/products/": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/products.index.tsx", children: void 0, preloads: ["/assets/products.index-DiFk-jvP.js", "/assets/PageHero-Yu9ohvYF.js", "/assets/ProductCard-CavqwA3_.js", "/assets/QuoteCta-ClOXfPO3.js", "/assets/Section-CjRieCMC.js", "/assets/input-CbmKSwTD.js", "/assets/arrow-right-ehHOHOKZ.js"] } } });
-const _tanstackStartManifest_vDoN16At = /* @__PURE__ */ Object.freeze({
+const tsrStartManifest = () => ({ routes: { __root__: { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/__root.tsx", children: ["/", "/about", "/contact", "/global-presence", "/industries", "/products", "/quality", "/quote", "/resources", "/sitemap.xml", "/product/$slug"], preloads: ["/assets/index-DWnX_PbR.js"], scripts: [{ attrs: { type: "module", async: true, src: "/assets/index-DWnX_PbR.js" } }] }, "/": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/index.tsx", children: void 0, preloads: ["/assets/index-DSq3I6ml.js", "/assets/facility-DIV0AnVV.js", "/assets/world-map-DMZ6nnnU.js", "/assets/ProductCard-4WzWw-NF.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/accordion-CQzhIO-g.js", "/assets/arrow-right-BMUeX-8Q.js", "/assets/shield-check-DOLtObZW.js", "/assets/index-BW0r4E4T.js"] }, "/about": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/about.tsx", children: void 0, preloads: ["/assets/about-d-f5g-1w.js", "/assets/facility-DIV0AnVV.js", "/assets/PageHero-pPRhG1v3.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/arrow-right-BMUeX-8Q.js"] }, "/contact": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/contact.tsx", children: void 0, preloads: ["/assets/contact-CSzDI63l.js", "/assets/InquiryForm-ByUNAZO-.js", "/assets/PageHero-pPRhG1v3.js", "/assets/Section-O-qK8Ua-.js", "/assets/index-BW0r4E4T.js", "/assets/input-O-bIIvay.js"] }, "/global-presence": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/global-presence.tsx", children: void 0, preloads: ["/assets/global-presence-CjL7a94v.js", "/assets/world-map-DMZ6nnnU.js", "/assets/PageHero-pPRhG1v3.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/arrow-right-BMUeX-8Q.js"] }, "/industries": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/industries.tsx", children: void 0, preloads: ["/assets/industries-CBrIluGE.js", "/assets/PageHero-pPRhG1v3.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/arrow-right-BMUeX-8Q.js"] }, "/products": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/products.tsx", children: ["/products/"], preloads: ["/assets/products-BULuNNB4.js"] }, "/quality": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/quality.tsx", children: void 0, preloads: ["/assets/quality-CncEQtNY.js", "/assets/facility-DIV0AnVV.js", "/assets/PageHero-pPRhG1v3.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/shield-check-DOLtObZW.js", "/assets/arrow-right-BMUeX-8Q.js"] }, "/quote": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/quote.tsx", children: void 0, preloads: ["/assets/quote-CtajC7s2.js", "/assets/InquiryForm-ByUNAZO-.js", "/assets/PageHero-pPRhG1v3.js", "/assets/Section-O-qK8Ua-.js", "/assets/index-BW0r4E4T.js", "/assets/input-O-bIIvay.js"] }, "/resources": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/resources.tsx", children: void 0, preloads: ["/assets/resources-BKGATL0-.js", "/assets/PageHero-pPRhG1v3.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/accordion-CQzhIO-g.js", "/assets/arrow-right-BMUeX-8Q.js", "/assets/index-BW0r4E4T.js"] }, "/product/$slug": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/product.$slug.tsx", children: void 0, preloads: ["/assets/product._slug-oPPkPHF7.js", "/assets/ProductCard-4WzWw-NF.js", "/assets/Section-O-qK8Ua-.js", "/assets/arrow-right-BMUeX-8Q.js"] }, "/products/": { filePath: "C:/Users/pc/Downloads/Kraela website/src/routes/products.index.tsx", children: void 0, preloads: ["/assets/products.index-B5_PMUqo.js", "/assets/PageHero-pPRhG1v3.js", "/assets/ProductCard-4WzWw-NF.js", "/assets/QuoteCta-BT3GCOPd.js", "/assets/Section-O-qK8Ua-.js", "/assets/input-O-bIIvay.js", "/assets/arrow-right-BMUeX-8Q.js"] } } });
+const _tanstackStartManifest_vXKCKWpSQ = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   tsrStartManifest
 });
@@ -30025,7 +30025,7 @@ ZodEnum.create;
 ZodPromise.create;
 ZodOptional.create;
 ZodNullable.create;
-const appCss = "/assets/styles-rExRuITv.css";
+const appCss = "/assets/styles-BkuXjwsf.css";
 function reportLovableError(error, context = {}) {
   if (typeof window === "undefined") return;
   window.__lovableEvents?.captureException?.(
@@ -30296,7 +30296,7 @@ function Navbar() {
           Link,
           {
             to: "/quote",
-            className: "hidden bg-brand-green px-5 py-3 text-[13px] font-semibold uppercase tracking-[0.18em] text-brand-ivory transition-colors hover:bg-brand-green-deep sm:inline-block",
+            className: "hidden bg-brand-gold px-5 py-3 text-[13px] font-semibold uppercase tracking-[0.18em] text-brand-green-deep transition-colors hover:bg-brand-gold-soft sm:inline-block",
             children: "Request a Quote"
           }
         ),
@@ -30332,7 +30332,7 @@ function Navbar() {
         {
           to: "/quote",
           onClick: () => setOpen(false),
-          className: "mt-4 bg-brand-green px-5 py-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-ivory",
+          className: "mt-4 bg-brand-gold px-5 py-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-green-deep transition-colors hover:bg-brand-gold-soft",
           children: "Request a Quote"
         }
       )
@@ -30545,7 +30545,7 @@ function RootComponent() {
   ] });
 }
 const $$splitComponentImporter$a = () => Promise.resolve().then(function() {
-  return indexDzqeJaZL;
+  return indexBlqRzVU_;
 });
 const title$8 = "Kraela — Edible Oil Manufacturer & Global Exporter";
 const description$8 = "Kraela supplies refined sunflower oil, cold-pressed mustard oil and graded oilseeds to importers, food manufacturers and distributors worldwide. Request a quote.";
@@ -30590,7 +30590,7 @@ const Route$b = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter$a, "component")
 });
 const $$splitComponentImporter$9 = () => Promise.resolve().then(function() {
-  return aboutDgiS8vUB;
+  return aboutBDLhmf4S;
 });
 const title$7 = "About Kraela — Edible Oil Manufacturer & Exporter";
 const description$7 = "Kraela is an international supplier of refined edible oils and oilseeds, working with importers, processors and distributors across global markets.";
@@ -30625,7 +30625,7 @@ const Route$a = createFileRoute("/about")({
   component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
 const $$splitComponentImporter$8 = () => Promise.resolve().then(function() {
-  return contactBrQhIyNP;
+  return contactC2tnVUwt;
 });
 const title$6 = "Contact Kraela — Export Sales Enquiries";
 const description$6 = "Contact the Kraela export desk with your edible oil or oilseed requirement. Share product, quantity, packing and destination for a prompt quotation.";
@@ -30660,7 +30660,7 @@ const Route$9 = createFileRoute("/contact")({
   component: lazyRouteComponent($$splitComponentImporter$8, "component")
 });
 const $$splitComponentImporter$7 = () => Promise.resolve().then(function() {
-  return globalPresenceCDsQwYji;
+  return globalPresenceDMhx92t_;
 });
 const title$5 = "Global Presence — Export Markets & Ports | Kraela";
 const description$5 = "Kraela ships to buyers across the Middle East, Africa, Europe, Asia, the Americas and Oceania, with packing and documentation matched to each destination.";
@@ -30695,7 +30695,7 @@ const Route$8 = createFileRoute("/global-presence")({
   component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
 const $$splitComponentImporter$6 = () => Promise.resolve().then(function() {
-  return industriesPA997g0l;
+  return industriesD3Zlmv9_;
 });
 const title$4 = "Industries We Supply — Food, Retail & Industrial | Kraela";
 const description$4 = "Kraela supplies edible oils and oilseeds to food manufacturers, retail and private label brands, food service, personal care, feed and industrial buyers.";
@@ -30736,7 +30736,7 @@ const Route$6 = createFileRoute("/products")({
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
 const $$splitComponentImporter$4 = () => Promise.resolve().then(function() {
-  return qualityCIcHKmLi;
+  return qualityDYPsOo3d;
 });
 const title$3 = "Quality & Certifications — Testing and Compliance | Kraela";
 const description$3 = "How Kraela controls quality: intake screening, in-process control points, laboratory testing, batch coding and complete export documentation.";
@@ -30771,7 +30771,7 @@ const Route$5 = createFileRoute("/quality")({
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
 const $$splitComponentImporter$3 = () => Promise.resolve().then(function() {
-  return quoteMrt3IuVv;
+  return quoteCu6MnKLO;
 });
 const title$2 = "Request a Quote — Bulk Edible Oil Enquiry | Kraela";
 const description$2 = "Request a quotation from Kraela. Share product, quantity, packing and destination port and our export desk will respond with pricing and lead time.";
@@ -30810,7 +30810,7 @@ const Route$4 = createFileRoute("/quote")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
 const $$splitComponentImporter$2 = () => Promise.resolve().then(function() {
-  return resourcesD_iIxkBy;
+  return resourcesDDrFMoi4;
 });
 const title$1 = "Resources & Knowledge Hub — Export Guides | Kraela";
 const description$1 = "Specification sheets, packing and loading guidance, Incoterms explainers and quality references for buyers of edible oils and oilseeds.";
@@ -30891,7 +30891,7 @@ const Route$2 = createFileRoute("/sitemap.xml")({
   }
 });
 const $$splitComponentImporter$1 = () => Promise.resolve().then(function() {
-  return product__slugDaNcbKYq;
+  return product__slugCyDWcuCt;
 });
 const Route$1 = createFileRoute("/product/$slug")({
   loader: ({
@@ -30951,7 +30951,7 @@ const Route$1 = createFileRoute("/product/$slug")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
 const $$splitComponentImporter = () => Promise.resolve().then(function() {
-  return products_indexX5y3q1FB;
+  return products_indexB2u88Nb;
 });
 const title = "Products — Refined Edible Oils & Oilseeds | Kraela";
 const description = "Explore Kraela's export range: refined sunflower oil, cold-pressed mustard oil and graded oilseeds, available in retail, bulk and industrial packing.";
@@ -31079,7 +31079,7 @@ const router = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   __proto__: null,
   getRouter
 }, Symbol.toStringTag, { value: "Module" }));
-const routerCnQ2V7d6 = /* @__PURE__ */ Object.freeze({
+const routerD8Eu7kc6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   R: Route$4,
   a: resources,
@@ -31137,7 +31137,7 @@ const csrfMiddleware = createCsrfMiddleware({
 const startInstance = createStart(() => ({
   requestMiddleware: [errorMiddleware, csrfMiddleware]
 }));
-const startDqJpWjLm = /* @__PURE__ */ Object.freeze({
+const startGLQXb68K = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   startInstance
 });
@@ -36379,7 +36379,7 @@ function Home() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const indexDzqeJaZL = /* @__PURE__ */ Object.freeze({
+const indexBlqRzVU_ = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: Home
 });
@@ -36438,7 +36438,7 @@ function AboutPage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const aboutDgiS8vUB = /* @__PURE__ */ Object.freeze({
+const aboutBDLhmf4S = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: AboutPage
 });
@@ -36706,7 +36706,7 @@ function InquiryForm({
         {
           type: "submit",
           disabled: submitting,
-          className: "h-12 w-full rounded-none bg-brand-green text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-ivory hover:bg-brand-green-deep md:w-auto md:px-10",
+          className: "h-12 w-full rounded-none bg-brand-gold text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-green-deep hover:bg-brand-gold-soft md:w-auto md:px-10",
           children: submitting ? "Sending…" : isContactForm ? "Send message" : "Submit enquiry"
         }
       ),
@@ -36766,7 +36766,7 @@ function ContactPage() {
     ] }) })
   ] });
 }
-const contactBrQhIyNP = /* @__PURE__ */ Object.freeze({
+const contactC2tnVUwt = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: ContactPage
 });
@@ -36802,7 +36802,7 @@ function GlobalPresencePage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const globalPresenceCDsQwYji = /* @__PURE__ */ Object.freeze({
+const globalPresenceDMhx92t_ = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: GlobalPresencePage
 });
@@ -36820,7 +36820,7 @@ function IndustriesPage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const industriesPA997g0l = /* @__PURE__ */ Object.freeze({
+const industriesD3Zlmv9_ = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: IndustriesPage
 });
@@ -36856,7 +36856,7 @@ function QualityPage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const qualityCIcHKmLi = /* @__PURE__ */ Object.freeze({
+const qualityDYPsOo3d = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: QualityPage
 });
@@ -36895,7 +36895,7 @@ function QuotePage() {
     ] }) })
   ] });
 }
-const quoteMrt3IuVv = /* @__PURE__ */ Object.freeze({
+const quoteCu6MnKLO = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: QuotePage
 });
@@ -36924,7 +36924,7 @@ function ResourcesPage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const resourcesD_iIxkBy = /* @__PURE__ */ Object.freeze({
+const resourcesDDrFMoi4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: ResourcesPage
 });
@@ -36981,7 +36981,7 @@ function ProductDetail() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xs leading-relaxed text-muted-foreground", children: "Placeholder values. Final parameters are confirmed in writing with each quotation and certificate of analysis." }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/quote", search: {
           product: product.slug
-        }, className: "mt-7 inline-flex w-full items-center justify-center bg-brand-green px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-ivory", children: "Get pricing" })
+        }, className: "mt-7 inline-flex w-full items-center justify-center bg-brand-gold px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-green-deep transition-colors hover:bg-brand-gold-soft", children: "Get pricing" })
       ] }) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs(Section, { children: [
@@ -36990,7 +36990,7 @@ function ProductDetail() {
     ] })
   ] });
 }
-const product__slugDaNcbKYq = /* @__PURE__ */ Object.freeze({
+const product__slugCyDWcuCt = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: ProductDetail
 });
@@ -37011,7 +37011,7 @@ function ProductsPage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(QuoteCta, {})
   ] });
 }
-const products_indexX5y3q1FB = /* @__PURE__ */ Object.freeze({
+const products_indexB2u88Nb = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   component: ProductsPage
 });
