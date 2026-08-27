@@ -13,9 +13,9 @@ export const company = {
   legalName: "Kraela International",
   tagline: "Refined edible oils & oilseeds for global buyers",
   email: "sales@example.com",
-  phone: "+00 000 000 0000",
-  whatsapp: "+00 000 000 0000",
-  address: "Registered office address — placeholder, to be confirmed",
+  phone: "+48 517 348 544",
+  whatsapp: "+48 517 348 544",
+  address: "Registered office address — ul. Sielecka 67/69 lok. 4, 00-738 Warszawa, Poland",
 };
 
 export type ProductSpec = { label: string; value: string };

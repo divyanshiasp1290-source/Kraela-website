@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { products } from "@/data/site";
+import { company, products } from "@/data/site";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Please enter your name").max(100),
@@ -28,6 +28,24 @@ const contactSchema = z.object({
 
 type FormMode = "quote" | "contact";
 type Errors = Partial<Record<string, string>>;
+
+const whatsappNumber = company.whatsapp.replace(/\D/g, "");
+
+function buildWhatsAppMessage(data: Record<string, unknown>, isContactForm: boolean) {
+  const productValue = data["product"];
+  const product = products.find((item) => item.slug === productValue)?.name ?? productValue;
+  const details = isContactForm
+    ? { ...data }
+    : { ...data, product };
+
+  return [
+    `Hello Kraela, I would like to ${isContactForm ? "get in touch" : "request a quote"}.`,
+    "",
+    ...Object.entries(details).map(
+      ([key, value]) => `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value || "Not provided"}`,
+    ),
+  ].join("\n");
+}
 
 const fieldClass =
   "mt-2 h-11 rounded-none border-0 border-b border-input bg-transparent px-0 shadow-none focus-visible:border-brand-gold focus-visible:ring-0";
@@ -62,7 +80,11 @@ export function InquiryForm({
 
     setErrors({});
     setSubmitting(true);
-    // No backend connected yet: the enquiry is validated and acknowledged only.
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      buildWhatsAppMessage(parsed.data, isContactForm),
+    )}`;
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+
     setTimeout(() => {
       setSubmitting(false);
       form.reset();

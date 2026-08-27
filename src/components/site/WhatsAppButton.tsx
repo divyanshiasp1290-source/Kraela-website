@@ -3,10 +3,11 @@ import { company } from "@/data/site";
 
 export function WhatsAppButton() {
   const whatsappNumber = company.whatsapp.replace(/\D/g, "");
+  const message = "Hello Kraela, I would like to enquire about your products.";
 
   return (
     <a
-      href={`https://wa.me/${whatsappNumber}`}
+      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`}
       target="_blank"
       rel="noreferrer"
       aria-label="Chat with Kraela on WhatsApp"
